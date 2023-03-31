@@ -65,7 +65,7 @@ class UserController {
     });
     const mailOptions = {
       from: "2rsoni2843@gmail.com",
-      to: "rsoni2843@gmail.com",
+      to: "info@redpositive.in",
       subject: "Selected Users Data",
       html: "<p>" + JSON.stringify(selectedUsers) + "</p>",
     };
